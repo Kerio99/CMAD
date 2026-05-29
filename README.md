@@ -6,12 +6,12 @@ We study cross-modal anomaly detection, where a model is trained on known modali
 
 Experiments on ten datasets across RGB, 3D, MRI/CT, and thermal modalities show that our method achieves strong zero-shot and few-shot anomaly detection performance.
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/framework.png" width="800">
 </p>
 <p align="center">
   Overview of the proposed cross-modal anomaly detection framework.
-</p>
+</p> -->
 
 
 ## Environment Setup
@@ -22,22 +22,22 @@ Experiments on ten datasets across RGB, 3D, MRI/CT, and thermal modalities show 
 
 ## Run on Zero-Shot Setting
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/result_zero_shot.png" width="800">
 </p>
 <p align="center">
   Results under zero-shot setting.
-</p>
+</p> -->
 
 
 ## Run on Few-Shot Setting
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/result_few_shot.png" width="800">
 </p>
 <p align="center">
   Results under few-shot setting.
-</p>
+</p> -->
 
 
 
