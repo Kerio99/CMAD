@@ -15,6 +15,18 @@ Experiments on ten datasets across RGB, 3D, MRI/CT, and thermal modalities show 
 
 
 ## Environment Setup
+The code runs on a server equipped with 10 NVIDIA GeForce RTX 3090 GPUs under the following environment:
+- Python 3.10.0
+- PyTorch 2.5.1 + CUDA 11.8
+- torchvision 0.20.1 + CUDA 11.8
+- NumPy 1.26.3
+- OpenCV 4.10.0
+- scikit-learn 1.5.2
+- scikit-image 0.24.0
+- pandas 2.2.3
+- matplotlib 3.10.0
+- tqdm 4.67.1
+- einops 0.8.0
 
 
 ## Data Preparation
