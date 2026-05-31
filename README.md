@@ -57,8 +57,17 @@ For few-shot evaluation, the normal support samples for 1, 2, 4, and 8-shot sett
 
 ## Run on Zero-Shot Setting
 
+For zero-shot training and evaluation, simply run the corresponding bash script:
+
+```text
+  bash train_zero_shot.sh
+```
+```text
+  bash test_zero_shot.sh
+```
+
 <!-- <p align="center">
-  <img src="./assets/result_zero_shot.png" width="800">
+  <img src="./assets/result_zero_shot.png" width="600">
 </p>
 <p align="center">
   Results under zero-shot setting.
@@ -67,8 +76,13 @@ For few-shot evaluation, the normal support samples for 1, 2, 4, and 8-shot sett
 
 ## Run on Few-Shot Setting
 
+For few-shot evaluation, simply run the corresponding bash script:
+```text
+  bash test_few_shot.sh
+```
+
 <!-- <p align="center">
-  <img src="./assets/result_few_shot.png" width="800">
+  <img src="./assets/result_few_shot.png" width="600">
 </p>
 <p align="center">
   Results under few-shot setting.
