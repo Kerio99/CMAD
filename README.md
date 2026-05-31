@@ -42,19 +42,15 @@ We use ten public datasets across four modalities for cross-modal anomaly detect
 After downloading the datasets, reorganize them into the standard MVTec AD format. Each category should contain train, test, and ground_truth folders, 
 where normal training images are placed in train/good, test images are placed in test/good or test/<defect_type>, and pixel-level masks are placed in ground_truth/<defect_type> if available.
 
+'''text
 <dataset_name>/ 
-
 └── <category_name>/
-
   ├── train/good/ 
-  
   ├── test/good/ 
-  
   ├── test/<defect_type>/ 
-  
   └── ground_truth/<defect_type>/ 
-  
-  ......
+  ...
+'''
 
 For few-shot evaluation, the normal support samples for 1, 2, 4, and 8-shot settings are randomly generated and keep fixed across different methods for fair comparison, and can be downloaded from [few-shot data]()
 
