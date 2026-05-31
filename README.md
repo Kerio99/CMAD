@@ -66,12 +66,12 @@ For zero-shot training and evaluation, simply run the corresponding bash script:
   bash test_zero_shot.sh
 ```
 
-<!-- <p align="center">
+<p align="center">
   <img src="./assets/result_zero_shot.png" width="600">
 </p>
 <p align="center">
   Results under zero-shot setting.
-</p> -->
+</p>
 
 
 ## Run on Few-Shot Setting
@@ -81,12 +81,12 @@ For few-shot evaluation, simply run the corresponding bash script:
   bash test_few_shot.sh
 ```
 
-<!-- <p align="center">
+<p align="center">
   <img src="./assets/result_few_shot.png" width="600">
 </p>
 <p align="center">
   Results under few-shot setting.
-</p> -->
+</p>
 
 
 
