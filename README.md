@@ -43,11 +43,17 @@ After downloading the datasets, reorganize them into the standard MVTec AD forma
 where normal training images are placed in train/good, test images are placed in test/good or test/<defect_type>, and pixel-level masks are placed in ground_truth/<defect_type> if available.
 
 <dataset_name>/ 
-└── <category_name>/ \\
-  ├── train/good/ \\
-  ├── test/good/ \\
-  ├── test/<defect_type>/ \\
-  └── ground_truth/<defect_type>/ \\
+
+└── <category_name>/
+
+  ├── train/good/ 
+  
+  ├── test/good/ 
+  
+  ├── test/<defect_type>/ 
+  
+  └── ground_truth/<defect_type>/ 
+  
   ......
 
 For few-shot evaluation, the normal support samples for 1, 2, 4, and 8-shot settings are randomly generated and keep fixed across different methods for fair comparison, and can be downloaded from [few-shot data]()
