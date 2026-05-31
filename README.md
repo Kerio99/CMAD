@@ -1,4 +1,4 @@
-# Beyond Single-Modal Boundary: Cross-Modal Anomaly Detection through Visual Prototype and Harmonization
+# [CVPR2025] Beyond Single-Modal Boundary: Cross-Modal Anomaly Detection through Visual Prototype and Harmonization
 
 This repository provides the official implementation of [**Beyond Single-Modal Boundary: Cross-Modal Anomaly Detection through Visual Prototype and Harmonization**](https://openaccess.thecvf.com/content/CVPR2025/papers/Mao_Beyond_Single-Modal_Boundary_Cross-Modal_Anomaly_Detection_through_Visual_Prototype_and_CVPR_2025_paper.pdf).
 
@@ -87,6 +87,18 @@ For few-shot evaluation, simply run the corresponding bash script:
 <p align="center">
   Results under few-shot setting.
 </p>
+
+
+## Citation
+```text
+  @inproceedings{mao2025beyond,
+  title={Beyond single-modal boundary: Cross-modal anomaly detection through visual prototype and harmonization},
+  author={Mao, Kai and Wei, Ping and Lian, Yiyang and Wang, Yangyang and Zheng, Nanning},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={9964--9973},
+  year={2025}
+}
+```
 
 
 
