@@ -30,6 +30,27 @@ The code runs on a server equipped with 10 NVIDIA GeForce RTX 3090 GPUs under th
 
 
 ## Data Preparation
+### Download the datasets
+We use ten public datasets across four modalities for cross-modal anomaly detection, including RGB datasets (MVTec AD, VisA, BTAD, and MPDD), 
+3D datasets (MVTec 3D-AD and Eyecandies), MRI/CT datasets (Brain MRI and OCT2017), and thermal datasets (WTB and Leaves).
+- RGB: [MvTec AD](https://www.mvtec.com/research-teaching/datasets/mvtec-ad), [VisA](https://github.com/amazon-science/spot-diff), [BTAD](https://www.kaggle.com/datasets/thtuan/btad-beantech-anomaly-detection/data), [MPDD](https://github.com/stepanje/MPDD)
+- 3D: [MVTec 3D-AD](https://www.mvtec.com/research-teaching/datasets/mvtec-3d-ad), [Eyecandies](https://eyecan-ai.github.io/eyecandies/download)
+- MRI/CT: [Brain MRI](https://www.mvtec.com/research-teaching/datasets/mvtec-ad), [OCT2017](https://www.mvtec.com/research-teaching/datasets/mvtec-ad)
+- Thermal: [WTB](https://www.mvtec.com/research-teaching/datasets/mvtec-ad), [Leaves](https://www.mvtec.com/research-teaching/datasets/mvtec-ad)
+
+### Convert datasets to the MVTec-style structure
+After downloading the datasets, reorganize them into the standard MVTec AD format. Each category should contain train, test, and ground_truth folders, 
+where normal training images are placed in train/good, test images are placed in test/good or test/<defect_type>, and pixel-level masks are placed in ground_truth/<defect_type> if available.
+
+<dataset_name>/ 
+└── <category_name>/ 
+  ├── train/good/ 
+  ├── test/good/ 
+  ├── test/<defect_type>/ 
+  └── ground_truth/<defect_type>/
+  ......
+
+For few-shot evaluation, the normal support samples for 1, 2, 4, and 8-shot settings are randomly generated and keep fixed across different methods for fair comparison, and can be downloaded from [few-shot data]()
 
 
 ## Run on Zero-Shot Setting
