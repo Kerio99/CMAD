@@ -34,9 +34,9 @@ The code runs on a server equipped with 10 NVIDIA GeForce RTX 3090 GPUs under th
 We use ten public datasets across four modalities for cross-modal anomaly detection, including RGB datasets (MVTec AD, VisA, BTAD, and MPDD), 
 3D datasets (MVTec 3D-AD and Eyecandies), MRI/CT datasets (Brain MRI and OCT2017), and thermal datasets (WTB and Leaves).
 - RGB: [MvTec AD](https://www.mvtec.com/research-teaching/datasets/mvtec-ad), [VisA](https://github.com/amazon-science/spot-diff), [BTAD](https://www.kaggle.com/datasets/thtuan/btad-beantech-anomaly-detection/data), [MPDD](https://github.com/stepanje/MPDD)
-- 3D: [MVTec 3D-AD](https://www.mvtec.com/research-teaching/datasets/mvtec-3d-ad), [Eyecandies](https://eyecan-ai.github.io/eyecandies/download)
-- MRI/CT: [Brain MRI](https://www.mvtec.com/research-teaching/datasets/mvtec-ad), [OCT2017](https://www.mvtec.com/research-teaching/datasets/mvtec-ad)
-- Thermal: [WTB](https://www.mvtec.com/research-teaching/datasets/mvtec-ad), [Leaves](https://www.mvtec.com/research-teaching/datasets/mvtec-ad)
+- 3D: [MVTec 3D-AD](https://drive.google.com/file/d/1KlfQtat791iFGpXFuQ-9cDhiBvrkEmBL/view?usp=drive_link), [Eyecandies](https://drive.google.com/file/d/1SbbPLt6Vf6rGJkUmuRikoqYpQAYc6hLg/view?usp=drive_link)
+- MRI/CT: [Brain MRI](https://drive.google.com/file/d/130MmIGo81ZpxQIaA70NCjRcyfC2U9x0v/view?usp=drive_link), [OCT2017](https://drive.google.com/file/d/11mPughb6KAPyVlwCW2NmzxmxcUzOWSyG/view?usp=drive_link)
+- Thermal: [WTB](https://drive.google.com/file/d/1pv3XT2lI2UVUpFvnddWZMiiIqqX-Eogq/view?usp=drive_link), [Leaves](https://drive.google.com/file/d/12ZDsbNS8cg7VeOVCkNYqTQwKcsaJ09YP/view?usp=drive_link)
 
 ### Convert datasets to the MVTec-style structure
 After downloading the datasets, reorganize them into the standard MVTec AD format. Each category should contain train, test, and ground_truth folders, 
@@ -52,7 +52,7 @@ where normal training images are placed in train/good, test images are placed in
   ...
 ```
 
-For few-shot evaluation, the normal support samples for 1, 2, 4, and 8-shot settings are randomly generated and keep fixed across different methods for fair comparison, and can be downloaded from [few-shot data]()
+The json files for each dataset can be downloaded from [json files](https://drive.google.com/file/d/1O4qR1H9Np8FRs674Bbea1EjL1JXWrXHq/view?usp=drive_link) For few-shot evaluation, the normal support samples for 1, 2, 4, and 8-shot settings are randomly generated and keep fixed across different methods for fair comparison, and can be downloaded from [few-shot data](https://drive.google.com/file/d/1mHn8XutpiEImpyrgWG4DFC63QLG1Aa14/view?usp=drive_link)
 
 
 ## Run on Zero-Shot Setting
