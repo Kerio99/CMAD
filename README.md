@@ -13,6 +13,8 @@ Experiments on ten datasets across RGB, 3D, MRI/CT, and thermal modalities show 
   Overview of the proposed cross-modal anomaly detection framework.
 </p>
 
+---
+
 
 ## Environment Setup
 The code runs on a server equipped with 10 NVIDIA GeForce RTX 3090 GPUs under the following environment:
@@ -52,7 +54,7 @@ where normal training images are placed in train/good, test images are placed in
   ...
 ```
 
-The json files for each dataset can be downloaded from [json files](https://drive.google.com/file/d/1O4qR1H9Np8FRs674Bbea1EjL1JXWrXHq/view?usp=drive_link) For few-shot evaluation, the normal support samples for 1, 2, 4, and 8-shot settings are randomly generated and keep fixed across different methods for fair comparison, and can be downloaded from [few-shot data](https://drive.google.com/file/d/1mHn8XutpiEImpyrgWG4DFC63QLG1Aa14/view?usp=drive_link)
+The json files for each dataset can be downloaded from [json files](https://drive.google.com/file/d/1O4qR1H9Np8FRs674Bbea1EjL1JXWrXHq/view?usp=drive_link). For few-shot evaluation, the normal support samples for 1, 2, 4, and 8-shot settings are randomly generated and keep fixed across different methods for fair comparison, and can be downloaded from [few-shot data](https://drive.google.com/file/d/1mHn8XutpiEImpyrgWG4DFC63QLG1Aa14/view?usp=drive_link).
 
 
 ## Run on Zero-Shot Setting
