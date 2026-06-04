@@ -10,7 +10,7 @@ Experiments on ten datasets across RGB, 3D, MRI/CT, and thermal modalities show 
   <img src="./assets/training.png" width="600">
 </p>
 <p align="center">
-  Overview of training process in our proposed cross-modal anomaly detection framework.
+  Overview of the training process in our proposed cross-modal anomaly detection framework.
 </p>
 
 ---
